@@ -9,3 +9,4 @@ export function Input({icon: Icon, ...rest}){
     </Container>
   )
 }
+//componente
