@@ -8,7 +8,7 @@ export default {
     ORANGE: "#CF6B27",
 
     GRAY_100: "#999591",
-    GRAY_300: "#666360",
+    GRAY_300: "#BEBEBE",
 
     RED: "#FF002E"
   }
