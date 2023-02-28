@@ -22,7 +22,7 @@ export const Form = styled.form`
   text-align: center;
 
   > h1 {
-    font-size:48px;
+    font-size:42px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
   }
 

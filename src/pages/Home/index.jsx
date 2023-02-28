@@ -62,7 +62,9 @@ export function Home() {
   return (
     <Container>
       <Brand>
-      <h1>ClassNotes</h1>
+        <h1>
+        C<span>lass</span>N<span>otes</span>
+        </h1>
       </Brand>
 
       <Header/>

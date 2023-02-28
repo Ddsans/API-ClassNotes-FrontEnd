@@ -42,7 +42,7 @@ export function SignUp() {
 
       <Form>
         <h1>Class Notes</h1>
-        <p>Aplicação para salva e gerenciar seus links úteis.</p>
+        <p>Um aplicativo para organizar suas ideias e aprender da melhor forma.</p>
 
         <h2>Crie sua conta</h2>
 

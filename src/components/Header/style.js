@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 export const Container = styled.header`
   grid-area: header;
 
-  height: 105px;
+  padding: 0 5vw;
+  height: 10.6rem;
   width: 100%;
 
   border-bottom-width: 1px;
@@ -13,9 +14,6 @@ export const Container = styled.header`
 
   display: flex;
   justify-content: space-between;
-
-  padding: 0 80px;
-
 `;
 
 export const Profile = styled(Link)`
@@ -23,8 +21,9 @@ export const Profile = styled(Link)`
   align-items: center;
 
   > img {
-    width: 56px;
-    height: 56px;
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
     border-radius: 50%;
   }
 
@@ -32,10 +31,10 @@ export const Profile = styled(Link)`
     display: flex;
     flex-direction:column;
     margin-left: 16px;
-    line-height: 24px;
+    line-height: 2.4rem;
 
     span {
-      font-size:14px;
+      font-size:clamp(1.6rem, 1.4rem + 0.625vw, 1.8rem);
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
@@ -52,6 +51,6 @@ export const Logout = styled.button`
 
   > svg {
     color: ${({ theme }) => theme.COLORS.WHITE};
-    font-size: 36px;
+    font-size: 3.6rem;
   }
 `

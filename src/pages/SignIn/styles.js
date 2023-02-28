@@ -10,8 +10,8 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
-  max-width: 41em;
-  padding: 8em 4em;
+  width: 41em;
+  padding: 8em 3em;
   margin: auto;
 
   display: flex;
@@ -22,7 +22,7 @@ export const Form = styled.form`
   text-align: center;
 
   > h1 {
-    font-size:48px;
+    font-size:42px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
   }
 

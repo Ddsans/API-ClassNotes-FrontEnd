@@ -1,41 +1,60 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width:100%;
-  height: 100vh;
-
   display: grid;
-  grid-template-rows: 105px auto;
-  grid-template-areas: 
-  "header"
-  "content";
-
-  >main {
-    grid-area: content;
-    overflow-y: auto;
-  }
-
-  .tags {
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  grid-template-areas:
+    'header'
+    'content';
+  height: 100vh;
+  > main {
+    overflow: auto;
   }
 `;
 
 export const Form = styled.form`
-  max-width: 550px;
-  margin: 38px auto;
-
-  >header {
-    display:flex;
-    align-items: center;
+  grid-area: content;
+  width: min(90%, 55.5rem);
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  > header {
+    display: flex;
     justify-content: space-between;
-
-    margin-bottom:36px;
-
-    button {
-      font-size: 20px;
-      color: ${({ theme }) => theme.COLORS.GRAY_100};
+    align-items: center;
+    margin: 3.6rem 0;
+    > h1 {
+      font-weight: 500;
+      font-size: clamp(2.4rem, 1.2rem + 3.75vw, 3.6rem);
     }
   }
+  > section {
+    margin-top: 3.4rem;
+  }
+  > section:first-of-type {
+    > div:not(div:last-child) {
+      margin-bottom: 1.5rem;
+    }
+  }
+  .tags {
+    columns: 2;
+    column-gap: 1.5rem;
+    > div {
+      margin-bottom: 1.5rem;
+    }
+  }
+  > button:last-child {
+    margin-top: 1.9rem;
+  }
+`;
+
+export const Textarea = styled.textarea`
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  color: ${({ theme }) => theme.COLORS.WHITE};
+  width: 100%;
+  height: 15rem;
+  padding: 2rem;
+  margin-top: 1.6rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  resize: none;
 `;

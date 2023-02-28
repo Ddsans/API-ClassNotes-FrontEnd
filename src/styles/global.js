@@ -1,10 +1,22 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+  :root {
+    font-size: 62.5%;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  }
+
+  img, picture, svg, video {
+    display: block;
+    max-width: 100%
   }
 
   body {
@@ -16,7 +28,8 @@ export default createGlobalStyle`
 
   body, input, button, textarea {
     font-family: 'Roboto Slab', serif;
-    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
     outline: none;
   }
 
@@ -31,5 +44,16 @@ export default createGlobalStyle`
 
   button:hover, a:hover {
     filter: brightness(0.9);
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: .8rem;
+    background-color: ${({ theme }) => theme.COLORS.ORANGE};
   }
 `
