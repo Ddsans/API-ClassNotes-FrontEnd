@@ -2,14 +2,17 @@ import styled from "styled-components";
 import backgroundImg from '../../Assets/Study_environment.png'
 
 export const Container = styled.div`
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 
   display: flex;
   align-items: stretch; 
 `;
 
 export const Form = styled.form`
-  padding: 0 136px;
+  max-width: 41em;
+  padding: 8em 4em;
+  margin: auto;
 
   display: flex;
   flex-direction: column;
