@@ -4,7 +4,7 @@
    <img src="./public/cover.jpg" alt="Capa do projeto">
 </h1>
 
-##:computer: Projeto
+## :computer: Projeto
 O aplicativo ClassNotes tem como objetivo auxiliar na melhor organização de anotações de aulas, podendo guardar consigo anotações, links e organiza-las por tags.
 Este projeto foi desenvolvido durante o curso Explorer da RocketSeat e para entrega do trabalho final do curso WebDev Full Stack Resilia.
 
