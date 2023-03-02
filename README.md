@@ -10,7 +10,7 @@ Este projeto foi desenvolvido durante o curso Explorer da RocketSeat e para entr
 
 Você pode testar a aplicação [clicando aqui!](https://classnotesapp.netlify.app/)
 
-## Funcionalidades
+## :hammer: Funcionalidades
 - Criar conta
 - Logar na aplicação
 - Cadastro de anotações, links e tags.
