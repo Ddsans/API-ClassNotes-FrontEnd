@@ -55,7 +55,7 @@ Você pode testar a aplicação [clicando aqui!](https://classnotesapp.netlify.a
 - Defina a variável local, no arquivo src/services/api.js , conforme o endereço que será gerado no backend. Exemplo:
 
 ```JS
-  VITE_BASE_URL=http://localhost:3500
+  baseURL:http://localhost:3500
 
 ```
 
