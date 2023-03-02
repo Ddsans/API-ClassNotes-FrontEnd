@@ -2,6 +2,7 @@
 
 <h1 align="center">
    <img src="./public/cover.jpg" alt="Capa do projeto">
+   <img src="./public/cover1.jpg" alt="Capa do projeto">
 </h1>
 
 ## :computer: Projeto
