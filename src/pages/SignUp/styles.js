@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import backgroundImg from '../../Assets/Study_environment.png'
+import logo from '../../Assets/logonome.png'
 
 export const Container = styled.div`
   width: 100%;
@@ -45,5 +46,12 @@ export const Form = styled.form`
 export const Background = styled.div`
   flex:1;
   background:url(${backgroundImg}) no-repeat center center;
+  background-size: cover;
+`;
+
+export const Logo = styled.div`
+  width: 23rem;
+  height:10rem ;
+  background:url(${logo}) no-repeat center center;
   background-size: cover;
 `;

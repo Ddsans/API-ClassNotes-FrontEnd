@@ -7,7 +7,7 @@ import { api } from "../../services/api"
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 
-import { Container, Form, Background } from "./styles";
+import { Container, Form, Background, Logo } from "./styles";
 
 export function SignUp() {
   const [name, setName] = useState("");
@@ -42,7 +42,7 @@ export function SignUp() {
       <Background/>
 
       <Form>
-        <h1>Class Notes</h1>
+        <Logo/>
         <p>Um aplicativo para organizar suas ideias e aprender da melhor forma.</p>
 
         <h2>Crie sua conta</h2>
